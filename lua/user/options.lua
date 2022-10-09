@@ -43,4 +43,6 @@ end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
+vim.cmd "set clipboard=unnamed" -- set clipboard shared on Mac and Windows
+--vim.cmd "set clipboard=unnamedplus" -- set clipboard shared on linux
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
